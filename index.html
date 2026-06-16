@@ -1,309 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXIT - Modern Axure Template</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="bg-dark">
-        <div class="container">
-            <h2 class="d-inline-block">
-                <p class="text-white font-size float-left">AX<span>IT</span></p>
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-dark">
+        <div class="container navbar-container">
+            <h2 class="logo">
+                <a href="#" class="text-white">AX<span>IT</span></a>
             </h2>
-            <ul class="float-right">
-                <li class="d-inline-block"><a href="" class="text-gray">Features</a></li>
-                <li class="d-inline-block"><a href="" class="text-gray">About</a></li>
-                <li class="d-inline-block"><a href="" class="text-gray">Pricing</a></li>
-                <li class="d-inline-block"><a href="" class="text-gray">Review</a></li>
-                <li class="d-inline-block"><a href="" class="text-gray">Contact</a></li>
-            </ul>
-            <div class="clear"></div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#awesome" class="text-gray">Features</a></li>
+                <li><a href="#about" class="text-gray">About</a></li>
+                <li><a href="#pricing" class="text-gray">Pricing</a></li>
+                <li><a href="#reviews" class="text-gray">Review</a></li>
+                <li><a href="#contact" class="text-gray">Contact</a></li>
+            </ul>
         </div>
     </nav>
+
+    <!-- Hero/Banner Section -->
     <section id="banner">
         <div class="overlay">
-            <div class="container">
-                <div class="form float-right">
-                    <form>
+            <div class="container banner-container">
+                <div class="left-side">
+                    <h1 class="text-white">AX<span>IT</span></h1>
+                    <p class="hero-subtitle">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</p>
+                    <hr class="hero-hr">
+                    <h5 class="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </h5>
+                    <a href="#" class="btn-download-hero">Download</a>
+                </div>
+
+                <div class="form-wrapper">
+                    <form class="trial-form">
                         <h2>Try Your <span>Free</span> Trial Today</h2>
-                        <input type="text" name="name" placeholder="Name*"><br>
-                        <input type="email" name="email" placeholder="Email*"><br>
-                        <input type="text" name="password" placeholder="Password"><br>
-                        <button class="start">Get started</button>
+                        <div class="form-inputs">
+                            <input type="text" name="name" placeholder="Name*" required>
+                            <input type="email" name="email" placeholder="Email*" required>
+                            <input type="password" name="password" placeholder="Password*" required>
+                        </div>
+                        <button class="start" type="submit">Get started</button>
                     </form>
                 </div>
-
-
-                <div class="left-side">
-                    <h1 class="text-white">AX<SPAN>IT</SPAN></h1>
-                    <p>MODERN AXURE TEMPLATE<br>
-                        FOR BEAUTIFUL PROTOTYPES
-                    </p>
-                    <hr>
-                    <h5>Lorem ipsum dolor sit amet. consectetur adipiscing elit. Aenean<br>
-                        euismod bibendum laoreet Proin gravida dotor sit amet lacus<br>
-                        accumsan et viverra justo commodo
-                    </h5>
-                    <a href="">
-                        <h3>Dwonload</h3>
-                    </a>
-                </div>
-                <div class="clear"></div>
             </div>
         </div>
     </section>
 
-    <section class="container">
-        <div class="social-media">
-            <div class="float-left">
-                <h2>
-                    Social media
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
-                    Aenean euismod bibendum laoreet.
-                </p>
+    <!-- Social Media Bar -->
+    <section class="social-bar">
+        <div class="container social-container">
+            <div class="social-text">
+                <h2>Social media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
             </div>
 
-            <div class="icons float-right">
-                <a href="" class="icon-color"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="" class="icon-color"><i class="fa-brands fa-twitter"></i></a>
-                <a href="" class="icon-color"><i class="fa-brands fa-google-plus-g"></i></a>
-                <a href="" class="icon-color"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="" class="icon-color"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" class="icon-color"><i class="fa-solid fa-wifi"></i></a>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </section>
-
-    <hr class="h-line">
-
-
-
-    <section class="bg-gray">
-        <div class="container">
-            <div class="page-padding">
-                <div class="tabs">
-                    <div class="tab-color tab1">TAB 1</div>
-                    <div class="tab tab2">TAB 2</div>
-                    <div class="tab tab3">TAB 3</div>
-                </div>
-
-                <div class="text2">
-                    <h2>Tabs with soft transitioning effect.</h2>
-                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br>
-                        penatibus et magnis dis parturient montes.
-                    </p>
-                    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Autem ipsum animi vero id
-                        eum
-                        rerum!
-                    </p>
-                    <button class="download">Download</button>
-                </div>
-
-
-                <div class="image">
-                    <img src="img/build.png" width="370px" height="120PX">
-                    <img src="img/build.png" class="reflection" width="370px" height="120PX">
-                </div>
-                <div class="clear"></div>
+            <div class="icons">
+                <a href="#" class="icon-color" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon-color" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="icon-color" aria-label="Google Plus"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon-color" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" class="icon-color" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon-color" aria-label="RSS Feed"><i class="fa-solid fa-wifi"></i></a>
             </div>
         </div>
     </section>
 
+    <!-- Interactive Tabs Section -->
+    <section class="bg-gray page-padding-section" id="about">
+        <div class="container tabs-section-container">
+            <div class="tabs-control">
+                <div class="tab-btn active" data-tab="tab-1">TAB 1</div>
+                <div class="tab-btn" data-tab="tab-2">TAB 2</div>
+                <div class="tab-btn" data-tab="tab-3">TAB 3</div>
+            </div>
 
-    <section class="container">
-        <div class="imag2 float-left">
-            <img src="img/WhatsApp Image 2025-06-24 at 20.21.16_86648419.jpg" width="500px" height="320px">
+            <div class="tab-contents">
+                <div class="tab-pane active" id="tab-1">
+                    <div class="tab-layout">
+                        <div class="text2">
+                            <h2>Tabs with soft transitioning effect.</h2>
+                            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsum animi vero id
+                                eum rerum!
+                            </p>
+                            <button class="download">Download</button>
+                        </div>
+                        <div class="image">
+                            <img src="img/build.png" alt="Build Showcase">
+                            <img src="img/build.png" class="reflection" alt="Reflection Showcase">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="tab-2">
+                    <div class="tab-layout">
+                        <div class="text2">
+                            <h2>Easy to customize and adjust.</h2>
+                            <p class="p1">Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
+                            </p>
+                            <button class="download">Download</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="tab-3">
+                    <div class="tab-layout">
+                        <div class="text2">
+                            <h2>Modern Axure themes built for speed.</h2>
+                            <p class="p1">Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="p2">Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra.
+                            </p>
+                            <button class="download">Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sub List Section -->
+    <section class="container sub-list-section">
+        <div class="image-wrapper">
+            <img src="img/WhatsApp Image 2025-06-24 at 20.21.16_86648419.jpg" alt="Sub List Preview">
             <div class="overlay-1"></div>
         </div>
 
-        <div class="sub-list float-right">
+        <div class="sub-list">
             <h2>Sub list section</h2>
             <hr class="sub-hr">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                 accumsan et viverra justo commodo.
             </p>
-            <div class="icon1 float-left">
-                <i class="fa-solid fa-cloud-arrow-up"></i>
+            
+            <div class="list-item">
+                <div class="icon1">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+                <div class="title">
+                    <h4>Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                </div>
             </div>
 
-            <div class="title float-left">
-                <h4>Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean euismod bibendum laoreet.
-                </p>
-            </div>
-            <div class="margin-top">
-                <div class="icon1 float-left">
+            <div class="list-item">
+                <div class="icon1">
                     <i class="fa-solid fa-cloud-arrow-down"></i>
                 </div>
-
-                <div class="title float-left">
+                <div class="title">
                     <h4>Title</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Aenean euismod bibendum laoreet. Proin gravida dolor
-                        sit amet lacus accumsan et viverra justo commodo.
+                        sit amet lacus accumsan et viverra justo commodo.
                     </p>
                 </div>
-
-            </div>
-        </div>
-        <div class="clear"></div>
-    </section>
-
-    <section class="bg-gray">
-        <div class="container">
-            <div class="margin-top">
-                <div class="image3 float-right">
-                    <img src="img/img 3.jpg" width="500px" height="320px">
-                    <div class="overlay-2"></div>
-                </div>
-                <div class="standard-pic float-left">
-                    <h2>Standard Picture Section</h2>
-                    <hr class="stand-hr">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
-                        et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
-                        natoque penatibus et magnis dis parturient montes.
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet.</p>
-                    </p>
-                </div>
-                <div class="clear"></div>
-
             </div>
         </div>
     </section>
-    <section class="container page-padding">
+
+    <!-- Standard Picture Section -->
+    <section class="bg-gray standard-picture-section">
+        <div class="container standard-container">
+            <div class="image-wrapper shadow">
+                <img src="img/img 3.jpg" alt="Standard Preview">
+                <div class="overlay-2"></div>
+            </div>
+            
+            <div class="standard-pic">
+                <h2>Standard Picture Section</h2>
+                <hr class="stand-hr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awesome Features Section -->
+    <section class="container page-padding-section" id="awesome">
         <div class="text-3">
             <h1>WHY THIS IS AWESOME</h1>
             <hr class="awesome-hr">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="card float-left">
-            <i class="fa-solid fa-lightbulb"></i>
-            <h3>Thoughtful Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.
-            </p>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <h3>Thoughtful Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Aenean euismod bibendum laoreet. Proin gravida
+                    dolor sit amet lacus accumsan et viverra.
+                </p>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-regular fa-keyboard"></i>
+                </div>
+                <h3>Well Crafted</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Aenean euismod bibendum laoreet. Proin gravida
+                    dolor sit amet lacus accumsan et viverra.
+                </p>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </div>
+                <h3>Easy to Customize</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Aenean euismod bibendum laoreet. Proin gravida
+                    dolor sit amet lacus accumsan et viverra.
+                </p>
+            </div>
         </div>
-        <div class="card float-left">
-            <i class="fa-regular fa-keyboard"></i>
-            <h3>Well Crafted</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.
-            </p>
-        </div>
-        <div class="card float-left">
-            <i class="fa-solid fa-bolt-lightning"></i>
-            <h3>Easy to Customize</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Aenean euismod bibendum laoreet. Proin gravida
-                dolor sit amet lacus accumsan et viverra.</p>
-        </div>
-        <div class="clear"></div>
     </section>
 
-    <section class="bg-gray page-padding">
+    <!-- Pricing Options Section -->
+    <section class="bg-gray page-padding-section" id="pricing">
         <div class="container">
             <div class="text-3">
                 <h1>PRICING OPTIONS</h1>
                 <hr class="awesome-hr">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="basic float-left">
-                <div>
-                    <h3 class="head">Basic</h3>
+            
+            <div class="pricing-grid">
+                <!-- Basic Card -->
+                <div class="pricing-card">
+                    <div class="head-container">
+                        <h3 class="head">Basic</h3>
+                    </div>
+                    <div class="price">
+                        <h2>$<span>0</span></h2>
+                        <p>Free For Life</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>1 GB OF SPACE</li>
+                            <li>10 GB OF BANDWIDTH</li>
+                            <li>3 WEBSITES</li>
+                            <li>BASIC CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>EMAIL SUPPORT</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="price">
-                    <h2>$<span>0</span></h2>
-                    <p>Free For Life</p>
+
+                <!-- Professional Card -->
+                <div class="pricing-card popular-card">
+                    <div class="head-container">
+                        <h3 class="head">Professional</h3>
+                    </div>
+                    <div class="price">
+                        <h2>$<span>19</span></h2>
+                        <p>Monthly Payment</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li class="popular">OUR MOST POPULAR</li>
+                            <li>5 GB OF SPACE</li>
+                            <li>50 GB OF BANDWIDTH</li>
+                            <li>12 WEBSITES</li>
+                            <li>ADVANCED CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>EMAIL SUPPORT</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <hr class="bottom-hr">
-                </div>
-                <div class="list">
-                    <ul>
-                        <li>1 GB OF SPACE</li>
-                        <li>10 GB OF BANDWIDTH</li>
-                        <li>3 WEBSITES</li>
-                        <li>BASIC CUSTOMIZATION</li>
-                        <li>WORDPRESS INTEGRATION</li>
-                        <li>EMAIL SUPPORT</li>
-                    </ul>
+
+                <!-- Enterprise Card -->
+                <div class="pricing-card">
+                    <div class="head-container">
+                        <h3 class="head">Enterprise</h3>
+                    </div>
+                    <div class="price">
+                        <h2>$<span>70</span></h2>
+                        <p>Monthly Payment</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>UNLIMITED SPACE</li>
+                            <li>UNLIMITED BANDWIDTH</li>
+                            <li>100 WEBSITES</li>
+                            <li>ADVANCED CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>24/7 CUSTOMER SUPPORT</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <div class="basic float-left top">
-                <div>
-                    <h3 class="head">Professional</h3>
-                </div>
-                <div class="price">
-                    <h2>$<span>19</span></h2>
-                    <p>Monthly Payment</p>
-                </div>
-                <div class="list">
-                    <ul>
-                        <li class="popular">OUR MOST POPULAR</li>
-                        <li>5 GB OF SPACE</li>
-                        <li>50 GB OF BANDWIDTH</li>
-                        <li>12 WEBSITES</li>
-                        <li>ADVANCED CUSTOMIZATION</li>
-                        <li>WORDPRESS INTEGRATION</li>
-                        <li>EMAIL SUPPORT</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="basic float-left">
-                <div>
-                    <h3 class="head">Enterprise</h3>
-                </div>
-                <div class="price">
-                    <h2>$<span>70</span></h2>
-                    <p>Monthly Payment</p>
-                </div>
-                <div>
-                    <hr class="bottom-hr">
-                </div>
-                <div class="list">
-                    <ul>
-                        <li>UNLIMITED SPACE</li>
-                        <li>UNLIMITED BANDWIDTH</li>
-                        <li>100 WEBSITES</li>
-                        <li>ADVANCED CUSTOMIZATION</li>
-                        <li>WORDPRESS INTEGRATION</li>
-                        <li>24/7 CUSTOMER SUPPORT</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="clear"></div>
         </div>
     </section>
 
-    <section class="container page-padding">
+    <!-- Customers Testimonials Section -->
+    <section class="container page-padding-section" id="reviews">
         <div class="text-3">
             <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
             <hr class="awesome-hr">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        
         <div class="customers-wrapper">
-            <div class="customer float-left">
+            <div class="customer">
                 <div class="message">
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -314,15 +348,15 @@
                     <div class="triangle"></div>
                 </div>
                 <div class="customer-info">
-                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" width="22%" height="70px">
+                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" alt="Jeremy H.">
                     <div class="customer-details">
-                        <h3>Jeremy H.</h3>
+                        <h4>Jeremy H.</h4>
                         <p>Manager</p>
                     </div>
                 </div>
             </div>
 
-            <div class="customer float-left">
+            <div class="customer">
                 <div class="message">
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -333,7 +367,7 @@
                     <div class="triangle"></div>
                 </div>
                 <div class="customer-info">
-                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" width="22%" height="70px">
+                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" alt="John S.">
                     <div class="customer-details">
                         <h4>John S.</h4>
                         <p>Freelancer</p>
@@ -341,7 +375,7 @@
                 </div>
             </div>
 
-            <div class="customer float-left">
+            <div class="customer">
                 <div class="message">
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -352,47 +386,50 @@
                     <div class="triangle"></div>
                 </div>
                 <div class="customer-info">
-                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" width="22%" height="70px">
+                    <img src="img/WhatsApp Image 2025-06-27 at 21.52.53_6bc7fa4f.jpg" alt="Susan W.">
                     <div class="customer-details">
-                        <h4>Susan W.</h4>
+                        <h4>Susan W.</h4>
                         <p>Photographer</p>
                     </div>
                 </div>
-                <div class="clear"></div>
             </div>
         </div>
     </section>
 
+    <!-- Stylish Banner Section -->
     <section class="stylish">
         <div class="overlay-3">
             <div class="container">
                 <div class="stylish-text">
-                    <h1>STYLISH AXURE DESIGN </h1>
+                    <h1>STYLISH AXURE DESIGN</h1>
                     <hr class="stylish-hr">
-                    <p>Use the sections you need. remove the ones you don't Create gorgeous prototypes faster than ever!
-                    </p>
+                    <p>Use the sections you need. remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
                     <a href="#" class="btn-download">Download</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container page-padding">
+    <!-- Contact Us Section -->
+    <section class="container page-padding-section" id="contact">
         <div class="text-3">
             <h1>CONTACT US</h1>
             <hr class="awesome-hr">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        
         <div class="contact-section">
             <form class="contact-form">
-                <div class="l-side float-left">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Subject" required>
-                </div>
+                <div class="form-fields">
+                    <div class="inputs-col">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Subject" required>
+                    </div>
 
-                <div class="right-side float-left">
-                    <textarea placeholder="Message" required></textarea>
+                    <div class="textarea-col">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
                 </div>
 
                 <div class="form-btn">
@@ -400,26 +437,74 @@
                 </div>
             </form>
         </div>
-        <div class="clear"></div>
     </section>
 
-    <section class="bg-dark">
-        <div class="container">
-            <footer>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-google-plus-g"></i>
-                <i class="fa-brands fa-pinterest"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-solid fa-wifi"></i>
-                <p>@ 2015 Axure Themes</p>
-            </footer>
+    <!-- Footer -->
+    <footer class="bg-dark">
+        <div class="container footer-container">
+            <div class="footer-icons">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Google Plus"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="RSS Feed"><i class="fa-solid fa-wifi"></i></a>
+            </div>
+            <p>&copy; 2015 Axure Themes. All rights reserved.</p>
         </div>
-    </section>
+    </footer>
 
+    <!-- JavaScript for Mobile Menu & Tabs -->
+    <script>
+        // Toggle mobile menu
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
 
+        // Close mobile menu when a link is clicked
+        const navItems = navLinks.querySelectorAll('a');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            });
+        });
 
+        // Interactive Tab Switching
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabPanes = document.querySelectorAll('.tab-pane');
 
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and panes
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabPanes.forEach(p => p.classList.remove('active'));
+
+                // Add active class to current button
+                btn.classList.add('active');
+
+                // Show corresponding pane
+                const targetTab = btn.getAttribute('data-tab');
+                const activePane = document.getElementById(targetTab);
+                if (activePane) {
+                    activePane.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
